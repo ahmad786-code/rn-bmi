@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "expo-bmi-calc",
+    "description": "A BMI calculator made with React Native & Expo",
+    "slug": "expo-bmi-calc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": []
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#0A0F32",
+      "barStyle": "light-content"
+    },
+    "androidNavigationBar": {
+      "visible": "sticky-immersive",
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
